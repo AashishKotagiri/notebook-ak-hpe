@@ -1,1 +1,22 @@
+# Ignore Git files
+.git
+.gitignore
 
+# Ignore Docker files
+.dockerignore
+Dockerfile
+README.md
+
+# Ignore temp files
+*~
+.DS_Store
+tmp/
+.cache/
+
+# Ignore package managers
+node_modules/
+__pycache__/
+.pytest_cache/
+
+# Ignore logs
+*.log
